@@ -25,7 +25,8 @@ private let lruMargin: CGFloat = 10.0
 }
 
 // 整个LRUView
-public class LRUView: UIView {
+
+public class XHLRUView: UIView {
     
     public weak var delegate: lruViewDelegate?
     var historys: [String] = [] {
@@ -38,20 +39,20 @@ public class LRUView: UIView {
 //            print("打印旧值", oldValue)
 //            print("historys",historys)
             lruContView.removeFromSuperview()
-            lruContView = LRUContentView.init(historys)
+            lruContView = XHLRUContentView.init(historys)
             self.addSubview(lruContView)
         }
     }
-    var lruContView: LRUContentView = LRUContentView()
-    var lruHeadView: LRUHeadView = LRUHeadView()
+    var lruContView: XHLRUContentView = XHLRUContentView()
+    var lruHeadView: XHLRUHeadView = XHLRUHeadView()
     public override init(frame: CGRect) {
         super.init(frame: frame)
-        lruHeadView = LRUHeadView.init("历史记录", frame: CGRect.init(x: 0, y: 0, width: self.bounds.size.width, height: 46))
+        lruHeadView = XHLRUHeadView.init("历史记录", frame: CGRect.init(x: 0, y: 0, width: self.bounds.size.width, height: 46))
         lruHeadView.delegate = self
         self.addSubview(lruHeadView)
         
         historys = ["nishisbudadh","nishisbudadh","nishisbudadh","nishisbudadh","nishisbudadh","nishisbudadh"]
-        lruContView = LRUContentView.init(historys)
+        lruContView = XHLRUContentView.init(historys)
         lruContView.frame = CGRect.init(x: 0, y: 56, width: self.bounds.size.width, height: 100)
         lruContView.itemBackColor = UIColor.init(red: 236/255.0, green: 236/255.0, blue: 236/255.0, alpha: 1.0)
         lruContView.delegate = self
@@ -63,7 +64,7 @@ public class LRUView: UIView {
     }
 }
 
-extension LRUView: clearBtnDelegate, itemClickDelegate {
+extension XHLRUView: clearBtnDelegate, itemClickDelegate {
     public func itemClick(_ index: Int) {
         print("点击了第几个按钮",index)
         delegate?.elementClick(index)
@@ -78,7 +79,7 @@ extension LRUView: clearBtnDelegate, itemClickDelegate {
 
 
 // 头部视图
-class LRUHeadView: UIView {
+class XHLRUHeadView: UIView {
     
     public var lruViewTitle: String = "历史记录"
     fileprivate weak var delegate: clearBtnDelegate?
@@ -95,7 +96,8 @@ class LRUHeadView: UIView {
     private lazy var clealBtn: UIButton = {
         let btn = UIButton.init(type: .custom)
         btn.setTitle(" 清除记录", for: .normal)
-        btn.setImage(UIImage.init(named: "clear.png"), for: .normal)
+        let image = UIImage.init(named: "clear.png")
+        btn.setImage(image, for: .normal)
         btn.titleLabel?.font = UIFont.systemFont(ofSize: 14)
         btn.setTitleColor(UIColor.systemGray, for: .normal)
         btn.addTarget(self, action: #selector(clearBtnClick), for: .touchUpInside)
@@ -130,7 +132,7 @@ class LRUHeadView: UIView {
 
 
 // 内容视图
-public class LRUContentView: UIView {
+public class XHLRUContentView: UIView {
     
     public var itemBackColor: UIColor?
     //    public var itemText: String?
