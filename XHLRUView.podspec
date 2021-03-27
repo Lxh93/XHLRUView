@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XHLRUView'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of XHLRUView.'
+  s.version          = '0.0.1'
+  s.summary          = 'search history view'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = "a tool of search history view"
 
   s.homepage         = 'https://github.com/Lxh93/XHLRUView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -32,9 +30,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'XHLRUView/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'XHLRUView' => ['XHLRUView/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'XHLRUView' => ['XHLRUView/Assets/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

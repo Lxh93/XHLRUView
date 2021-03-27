@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import XHLRUView
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let lruView = LRUView.init(frame: CGRect.init(x: 0, y: 100, width: view.bounds.size.width, height: 50))
+//        lruView.itemBackColor = UIColor.orange
+//        lruView.frame = CGRect.init(origin: CGPoint.init(x: 0, y: 100), size: CGSize.init(width: view.bounds.size.width, height: 150))
+        view.addSubview(lruView)
     }
 
     override func didReceiveMemoryWarning() {

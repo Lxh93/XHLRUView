@@ -8,6 +8,5 @@ target 'XHLRUView_Example' do
   target 'XHLRUView_Tests' do
     inherit! :search_paths
 
-    
   end
 end

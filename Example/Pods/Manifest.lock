@@ -1,0 +1,16 @@
+PODS:
+  - XHLRUView (0.0.1)
+
+DEPENDENCIES:
+  - XHLRUView (from `../`)
+
+EXTERNAL SOURCES:
+  XHLRUView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XHLRUView: 2a09d6050e47e206fbfdd9b569ed8ff45fdab13f
+
+PODFILE CHECKSUM: 2ab5b852b21dfc38cf8f0f53aa5dbf91b190c957
+
+COCOAPODS: 1.9.1

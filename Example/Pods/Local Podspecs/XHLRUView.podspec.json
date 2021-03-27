@@ -1,0 +1,27 @@
+{
+  "name": "XHLRUView",
+  "version": "0.0.1",
+  "summary": "search history view",
+  "description": "a tool of search history view",
+  "homepage": "https://github.com/Lxh93/XHLRUView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Lxh93": "894365394@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Lxh93/XHLRUView.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "XHLRUView/Classes/**/*",
+  "resource_bundles": {
+    "XHLRUView": [
+      "XHLRUView/Assets/*.png"
+    ]
+  }
+}
