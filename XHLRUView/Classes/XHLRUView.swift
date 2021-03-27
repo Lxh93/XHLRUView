@@ -96,7 +96,14 @@ class XHLRUHeadView: UIView {
     private lazy var clealBtn: UIButton = {
         let btn = UIButton.init(type: .custom)
         btn.setTitle(" 清除记录", for: .normal)
-        let image = UIImage.init(named: "clear.png")
+        
+//        let className = "XHLRUView" + "." + "XHLRUView"
+//        let cls: AnyClass? = NSClassFromString(className)
+//        let bundle = Bundle(for: cls!)
+//        let scale = Int(UIScreen.main.scale)
+//        let path = bundle.path(forResource: "XHLRUView.bundle/clear@\(scale)x.png", ofType: nil)
+//        let image = UIImage.init(contentsOfFile: path!)
+        let image = UIImage.getImageFromBundle("clear")
         btn.setImage(image, for: .normal)
         btn.titleLabel?.font = UIFont.systemFont(ofSize: 14)
         btn.setTitleColor(UIColor.systemGray, for: .normal)
@@ -216,5 +223,17 @@ public class XHLRUContentView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
+}
+
+extension UIImage {
+    class func getImageFromBundle(_ imageName: String) -> UIImage {
+        let className = "XHLRUView" + "." + "XHLRUView"
+        let cls: AnyClass? = NSClassFromString(className)
+        let bundle = Bundle(for: cls!)
+        let scale = Int(UIScreen.main.scale)
+        let path = bundle.path(forResource: "XHLRUView.bundle/\(imageName)@\(scale)x.png", ofType: nil)
+        guard let image = UIImage.init(contentsOfFile: path!) else { return UIImage() }
+        return image
+    }
 }
 
