@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XHLRUView'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'search history view'
 
 # This description is used to generate tags and improve search results.

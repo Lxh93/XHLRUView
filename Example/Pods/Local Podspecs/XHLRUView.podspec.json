@@ -1,6 +1,6 @@
 {
   "name": "XHLRUView",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "summary": "search history view",
   "description": "a tool of search history view",
   "homepage": "https://github.com/Lxh93/XHLRUView",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Lxh93/XHLRUView.git",
-    "tag": "0.0.2"
+    "tag": "0.0.3"
   },
   "platforms": {
     "ios": "9.0"

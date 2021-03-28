@@ -9,15 +9,15 @@ import UIKit
 
 private let lruMargin: CGFloat = 10.0
 
-@objc public protocol clearBtnDelegate {
+@objc public protocol ClearBtnDelegate {
     func clearBtnActionClick()
 }
 
-@objc public protocol itemClickDelegate {
+@objc public protocol ItemClickDelegate {
     func itemClick(_ index: Int)
 }
 
-@objc public protocol lruViewDelegate {
+@objc public protocol LRUViewDelegate {
     
     func elementClick(_ index: Int)
     
@@ -28,8 +28,8 @@ private let lruMargin: CGFloat = 10.0
 
 public class XHLRUView: UIView {
     
-    public weak var delegate: lruViewDelegate?
-    var historys: [String] = [] {
+    public weak var delegate: LRUViewDelegate?
+    public var historys: [NSMutableDictionary] = [] {
         willSet {
 //            print("打印新值", newValue)
 //            print("historys",historys)
@@ -40,7 +40,9 @@ public class XHLRUView: UIView {
 //            print("historys",historys)
             lruContView.removeFromSuperview()
             lruContView = XHLRUContentView.init(historys)
+            lruContView.frame = CGRect.init(x: 0, y: 56, width: self.bounds.size.width, height: 100)
             self.addSubview(lruContView)
+//            lruContView.setUI()
         }
     }
     var lruContView: XHLRUContentView = XHLRUContentView()
@@ -50,8 +52,8 @@ public class XHLRUView: UIView {
         lruHeadView = XHLRUHeadView.init("历史记录", frame: CGRect.init(x: 0, y: 0, width: self.bounds.size.width, height: 46))
         lruHeadView.delegate = self
         self.addSubview(lruHeadView)
-        
-        historys = ["nishisbudadh","nishisbudadh","nishisbudadh","nishisbudadh","nishisbudadh","nishisbudadh"]
+        let dic = ["fontColor": UIColor.green, "barrage": "你是个什么玩意", "fontName": "AppleSDGothicNeo-Bold", "fontSize": 200, "animationDuration": 10] as NSMutableDictionary
+        historys = [dic]
         lruContView = XHLRUContentView.init(historys)
         lruContView.frame = CGRect.init(x: 0, y: 56, width: self.bounds.size.width, height: 100)
         lruContView.itemBackColor = UIColor.init(red: 236/255.0, green: 236/255.0, blue: 236/255.0, alpha: 1.0)
@@ -64,7 +66,7 @@ public class XHLRUView: UIView {
     }
 }
 
-extension XHLRUView: clearBtnDelegate, itemClickDelegate {
+extension XHLRUView: ClearBtnDelegate, ItemClickDelegate {
     public func itemClick(_ index: Int) {
         print("点击了第几个按钮",index)
         delegate?.elementClick(index)
@@ -82,7 +84,7 @@ extension XHLRUView: clearBtnDelegate, itemClickDelegate {
 class XHLRUHeadView: UIView {
     
     public var lruViewTitle: String = "历史记录"
-    fileprivate weak var delegate: clearBtnDelegate?
+    fileprivate weak var delegate: ClearBtnDelegate?
     private lazy var searchHistoryLab: UILabel = {
         let label = UILabel.init()
         label.text = lruViewTitle
@@ -143,18 +145,17 @@ public class XHLRUContentView: UIView {
     
     public var itemBackColor: UIColor?
     //    public var itemText: String?
-    private var capacity = 0
-    private var titles = [String]()
-    fileprivate weak var delegate: itemClickDelegate?
+    private var items = [NSMutableDictionary]()
+    fileprivate weak var delegate: ItemClickDelegate?
     
     override init(frame: CGRect) {
         super.init(frame: frame)
     }
     
-    convenience init(_ titles: [String]) {
+    convenience init(_ items: [NSMutableDictionary]) {
         self.init()
-        self.capacity = titles.count
-        self.titles = titles
+        self.items = items
+//        self.backgroundColor = UIColor.red
     }
     
     public override func layoutSubviews() {
@@ -169,10 +170,11 @@ public class XHLRUContentView: UIView {
         var countRow: Int = 0
         var countCol: Int = 0
         var currentBtnHeight: CGFloat = 30.0
-        let viewWidth = self.frame.size.width
+        let viewWidth = self.superview!.frame.size.width
         
-        for i in 0 ..< capacity {
-            let btn = self.buttonWithTitle(title: titles[i])
+        for i in 0 ..< items.count {
+            let dic = items[i]
+            let btn = self.buttonWithTitle(dic)
             btn.tag = 100 + i
             btn.addTarget(self, action: #selector(btnDidClick(_:)), for: .touchUpInside)
             var btnWidth = btn.bounds.size.width
@@ -202,20 +204,25 @@ public class XHLRUContentView: UIView {
         self.frame.size.height = currentY + lruMargin + currentBtnHeight
     }
     
-    func buttonWithTitle(title: String) -> UIButton {
+    func buttonWithTitle(_ model: NSMutableDictionary) -> UIButton {
         let btn = UIButton.init(type: .custom)
-        btn.setTitle("   \(title)   ", for: .normal)
-        btn.setTitleColor(UIColor.systemGray, for: .normal)
+        btn.setTitle("   \(model["barrage"]!)   ", for: .normal)
+        btn.setTitleColor(model["fontColor"]! as? UIColor, for: .normal)
         btn.titleLabel?.font = UIFont.systemFont(ofSize: 14)
-        btn.backgroundColor = itemBackColor
+        btn.titleLabel?.font = UIFont.init(name: model["fontName"] as! String , size: 14)
+        btn.backgroundColor = UIColor.white
         btn.sizeToFit()
         btn.layoutIfNeeded()
         btn.layer.cornerRadius = 8
         btn.layer.masksToBounds = true
+        btn.layer.borderColor = (model["fontColor"]! as! UIColor).cgColor
+        btn.layer.borderWidth = 0.5
+        btn.isEnabled = true
         return btn
     }
     
     @objc func btnDidClick(_ btn: UIButton) {
+        print("有没有用");
         delegate?.itemClick(btn.tag - 100)
     }
     
