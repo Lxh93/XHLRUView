@@ -1,16 +1,16 @@
 PODS:
-  - XHLRUView (0.0.3)
+  - XHLRUView (0.0.1)
 
 DEPENDENCIES:
-  - XHLRUView (from `../`)
+  - XHLRUView (= 0.0.1)
 
-EXTERNAL SOURCES:
-  XHLRUView:
-    :path: "../"
+SPEC REPOS:
+  https://github.com/Lxh93/XHSpecs:
+    - XHLRUView
 
 SPEC CHECKSUMS:
-  XHLRUView: 1876683df2f321ad81e537b32f93e5a9cb160ef0
+  XHLRUView: 28eaea9f3ad68ee229168eb8b137d2a8797abeb7
 
-PODFILE CHECKSUM: 2ab5b852b21dfc38cf8f0f53aa5dbf91b190c957
+PODFILE CHECKSUM: d82ca63f00e570a3d1a9cb9ffe63ace3e2f1987f
 
 COCOAPODS: 1.9.1

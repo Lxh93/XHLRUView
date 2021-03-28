@@ -4,6 +4,7 @@
 //
 //  Created by 李小华 on 2021/3/26.
 //
+
 import UIKit
 
 private let lruMargin: CGFloat = 10.0
@@ -24,6 +25,7 @@ private let lruMargin: CGFloat = 10.0
 }
 
 // 整个LRUView
+
 public class XHLRUView: UIView {
     
     public weak var delegate: LRUViewDelegate?
@@ -38,7 +40,8 @@ public class XHLRUView: UIView {
 //            print("historys",historys)
             lruContView.removeFromSuperview()
             lruContView = XHLRUContentView.init(historys)
-            lruContView.frame = CGRect.init(x: 0, y: 56, width: self.bounds.size.width, height: 100)
+            lruContView.frame = CGRect.init(x: 0, y: 56, width: self.bounds.size.width, height: 250)
+            lruContView.delegate = self
             self.addSubview(lruContView)
 //            lruContView.setUI()
         }
@@ -50,10 +53,10 @@ public class XHLRUView: UIView {
         lruHeadView = XHLRUHeadView.init("历史记录", frame: CGRect.init(x: 0, y: 0, width: self.bounds.size.width, height: 46))
         lruHeadView.delegate = self
         self.addSubview(lruHeadView)
-        let dic = ["fontColor": UIColor.green, "barrage": "你是个什么玩意", "fontName": "AppleSDGothicNeo-Bold", "fontSize": 200, "animationDuration": 10] as NSMutableDictionary
-        historys = [dic]
+//        let dic = ["fontColor": UIColor.green, "barrage": "你是个什么玩意", "fontName": "AppleSDGothicNeo-Bold", "fontSize": 200, "animationDuration": 10] as NSMutableDictionary
+//        historys = [dic]
         lruContView = XHLRUContentView.init(historys)
-        lruContView.frame = CGRect.init(x: 0, y: 56, width: self.bounds.size.width, height: 100)
+        lruContView.frame = CGRect.init(x: 0, y: 56, width: self.bounds.size.width, height: 250)
         lruContView.itemBackColor = UIColor.init(red: 236/255.0, green: 236/255.0, blue: 236/255.0, alpha: 1.0)
         lruContView.delegate = self
         self.addSubview(lruContView)
@@ -241,3 +244,4 @@ extension UIImage {
         return image
     }
 }
+

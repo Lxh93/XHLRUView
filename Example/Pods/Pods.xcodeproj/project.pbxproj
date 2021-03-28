@@ -8,41 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		0468282E1138922B856E2A4F91581D2B /* Pods-XHLRUView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 902DBBD1C867300142BE4E7CF3991199 /* Pods-XHLRUView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		10E6A5AD183A701E3A15EACF6A2F11F1 /* XHLRUView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4911E5ED8F7CBC73078477606C98CEF /* XHLRUView-dummy.m */; };
+		0DBE10E0CC59B5DEBBBD2AFC3F80A60B /* clear@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5276D18A8943AA96BD8881D5945393C9 /* clear@3x.png */; };
+		10E6A5AD183A701E3A15EACF6A2F11F1 /* XHLRUView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE31ED381E989C0CD9240AB3736D122 /* XHLRUView-dummy.m */; };
 		237DAE4275699D5E5AECEC000A82EA88 /* XHLRUView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 903B3E5BEA3FA4EC692296336E4D81D3 /* XHLRUView.bundle */; };
+		60BA37D9084B89E4FDE5CE9CBB991FD9 /* clear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0A905B12C55287F9684F89F1D5D32BC /* clear@2x.png */; };
 		669A320297CDF63FC8DBB9DDA20DDAE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		799AF90D7E8BCEDA33E7F322F785DA03 /* XHLRUView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F37DA9CD90FAD01602AF46C28FD82DD5 /* XHLRUView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		799AF90D7E8BCEDA33E7F322F785DA03 /* XHLRUView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACF25769DC01D1EF8B522101455E6251 /* XHLRUView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		95163AB9C8AA6F25DF93ADCAB0EE07DD /* Pods-XHLRUView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C556C5990C91E6C7095B3895BC479573 /* Pods-XHLRUView_Tests-dummy.m */; };
 		A70BF27205BCA5BF571BD9F4B7F2E169 /* Pods-XHLRUView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4FF6745CC6ECB2D47D2BE1EA2F9ED5B /* Pods-XHLRUView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A90417E63974166036FFFB2FEDB5E2A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		C138F1E600ECA23B03A53EE740E334A0 /* clear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB66C61401E0B10BE353C58F4449319F /* clear@2x.png */; };
-		C2708737789BE953F2F1A555E136C21E /* clear@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6704B02E4B0341A926EA5528AF17F20A /* clear@3x.png */; };
 		C6C8491DFE79B1ECAEF6078C9208B645 /* Pods-XHLRUView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AC6894FB6CD54AAC4437397A0256F8 /* Pods-XHLRUView_Example-dummy.m */; };
 		C8A717E7A24D285CA9FBA7C409B3F77A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E192E0CEC0663336B7721D0A68726496 /* XHLRUView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71AEAD6B5ECF736CCCE9C889EEC75C /* XHLRUView.swift */; };
+		E192E0CEC0663336B7721D0A68726496 /* XHLRUView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0431B1F285E31A176ACB140E1A4809 /* XHLRUView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7216DAEE2DF68BDF75C739486225F099 /* PBXContainerItemProxy */ = {
+		05DA011990543FA388F2D1F3EB0183DB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 16557BEE75B97A3254E8B339EBA5B0C3;
-			remoteInfo = "XHLRUView-XHLRUView";
+			remoteGlobalIDString = A8B8FAE01179FD21E0A78E04EEA74C98;
+			remoteInfo = XHLRUView;
 		};
-		DB31FD93F2E02B50E2149EA03ED0BD1E /* PBXContainerItemProxy */ = {
+		5291747E69CE06CF6C9357C3752079CF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 39A94883A43B84B668A5DB94171ACFA8;
 			remoteInfo = "Pods-XHLRUView_Example";
 		};
-		DC4E187122ABE0882FF6421FE9A74EDA /* PBXContainerItemProxy */ = {
+		62126DE635FF08F87DCCAE8D71BF7031 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A8B8FAE01179FD21E0A78E04EEA74C98;
-			remoteInfo = XHLRUView;
+			remoteGlobalIDString = 16557BEE75B97A3254E8B339EBA5B0C3;
+			remoteInfo = "XHLRUView-XHLRUView";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -50,43 +50,47 @@
 		06F4690125C040B84862A1410DADA7C7 /* Pods-XHLRUView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XHLRUView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0867A71BC70E2B6CE0A9D9172A62BFBF /* Pods-XHLRUView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XHLRUView_Tests-Info.plist"; sourceTree = "<group>"; };
 		08A69A7B71F9A9D14E0070938CA70352 /* Pods_XHLRUView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XHLRUView_Tests.framework; path = "Pods-XHLRUView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B4257C36198A7FBA2CBCDDD8A40D370 /* XHLRUView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XHLRUView-Info.plist"; sourceTree = "<group>"; };
-		0DD43968B5F2F8DA0A77B018F64ABCBB /* XHLRUView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XHLRUView.modulemap; sourceTree = "<group>"; };
+		0FF62D6EC311DFCA8D06515627F3CE05 /* XHLRUView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XHLRUView-Info.plist"; sourceTree = "<group>"; };
 		2002062B7AE3128F82211B70B9244F1A /* Pods-XHLRUView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XHLRUView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		21359923FF27AB302DCEF23B4BD101AA /* ResourceBundle-XHLRUView-XHLRUView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XHLRUView-XHLRUView-Info.plist"; sourceTree = "<group>"; };
-		3A71AEAD6B5ECF736CCCE9C889EEC75C /* XHLRUView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XHLRUView.swift; path = XHLRUView/Classes/XHLRUView.swift; sourceTree = "<group>"; };
+		2AE31ED381E989C0CD9240AB3736D122 /* XHLRUView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XHLRUView-dummy.m"; sourceTree = "<group>"; };
 		3AA1EC751B823233D4F1327A040FA20D /* XHLRUView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XHLRUView.framework; path = XHLRUView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ED61CCB752CEE416AB0220F41DE683B /* ResourceBundle-XHLRUView-XHLRUView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XHLRUView-XHLRUView-Info.plist"; sourceTree = "<group>"; };
 		485C67B2632F74A9947B1C8BBB8F3176 /* Pods-XHLRUView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XHLRUView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4F0431B1F285E31A176ACB140E1A4809 /* XHLRUView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XHLRUView.swift; path = XHLRUView/Classes/XHLRUView.swift; sourceTree = "<group>"; };
+		5276D18A8943AA96BD8881D5945393C9 /* clear@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "clear@3x.png"; path = "XHLRUView/Assets/clear@3x.png"; sourceTree = "<group>"; };
 		58828F88594653C78D5F10F776C824A2 /* Pods-XHLRUView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XHLRUView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		64ABB22FE6697A8FDB600579F76F9AC3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		66E1EB97306CB777D66D86A47D15193F /* Pods-XHLRUView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XHLRUView_Example.modulemap"; sourceTree = "<group>"; };
-		6704B02E4B0341A926EA5528AF17F20A /* clear@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "clear@3x.png"; path = "XHLRUView/Assets/clear@3x.png"; sourceTree = "<group>"; };
 		68AC6894FB6CD54AAC4437397A0256F8 /* Pods-XHLRUView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XHLRUView_Example-dummy.m"; sourceTree = "<group>"; };
 		6C4055426F8E886006C43EA1BF42F1C8 /* Pods-XHLRUView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XHLRUView_Tests.modulemap"; sourceTree = "<group>"; };
 		706C8F56836CB70DB1F8C384EB647F0F /* Pods_XHLRUView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XHLRUView_Example.framework; path = "Pods-XHLRUView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		71325CBC0DF3DA758193D547E17D346E /* XHLRUView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XHLRUView.debug.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7DACF929B3DD6B4F2CA9CDAA36E7E512 /* XHLRUView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XHLRUView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		8333237B916A641971621994275AF8B2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		79828B45EDE0BE23018754CAC7F10E4A /* XHLRUView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XHLRUView.release.xcconfig; sourceTree = "<group>"; };
 		83A58401E38BC89EA1ADDC76524B7C5E /* Pods-XHLRUView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XHLRUView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		902DBBD1C867300142BE4E7CF3991199 /* Pods-XHLRUView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XHLRUView_Example-umbrella.h"; sourceTree = "<group>"; };
 		903B3E5BEA3FA4EC692296336E4D81D3 /* XHLRUView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = XHLRUView.bundle; path = "XHLRUView-XHLRUView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9484E0687B85B847F404D5DD1979C47C /* XHLRUView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XHLRUView.debug.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AD57E73B3B506455E64F39DC4787D519 /* XHLRUView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XHLRUView-prefix.pch"; sourceTree = "<group>"; };
+		9DB8E15F253E4F355079D72A543A780E /* XHLRUView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XHLRUView.modulemap; sourceTree = "<group>"; };
+		A3949BB325D1BAAEFE579AAF633B967C /* XHLRUView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XHLRUView-prefix.pch"; sourceTree = "<group>"; };
+		ACF25769DC01D1EF8B522101455E6251 /* XHLRUView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XHLRUView-umbrella.h"; sourceTree = "<group>"; };
+		B0A905B12C55287F9684F89F1D5D32BC /* clear@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "clear@2x.png"; path = "XHLRUView/Assets/clear@2x.png"; sourceTree = "<group>"; };
 		B4FF6745CC6ECB2D47D2BE1EA2F9ED5B /* Pods-XHLRUView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XHLRUView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		BB66C61401E0B10BE353C58F4449319F /* clear@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "clear@2x.png"; path = "XHLRUView/Assets/clear@2x.png"; sourceTree = "<group>"; };
-		C4911E5ED8F7CBC73078477606C98CEF /* XHLRUView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XHLRUView-dummy.m"; sourceTree = "<group>"; };
 		C556C5990C91E6C7095B3895BC479573 /* Pods-XHLRUView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XHLRUView_Tests-dummy.m"; sourceTree = "<group>"; };
-		C626259138F0FE4AE62FE24D3E28CD88 /* XHLRUView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XHLRUView.release.xcconfig; sourceTree = "<group>"; };
 		CB7B372CB076886ED00E047FD209A5C2 /* Pods-XHLRUView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XHLRUView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D23E8C4F2AFD4CB069B4D3F9353F6C09 /* Pods-XHLRUView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XHLRUView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D431832EA537B748144995EA29898342 /* Pods-XHLRUView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XHLRUView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		EB892781D46835C83D49FE4FC3396DC5 /* Pods-XHLRUView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XHLRUView_Example-Info.plist"; sourceTree = "<group>"; };
 		F13A8C9840ECE1820854F5C5ACBC00AD /* Pods-XHLRUView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XHLRUView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F37DA9CD90FAD01602AF46C28FD82DD5 /* XHLRUView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XHLRUView-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		00DF28E6EEAE01BD8B5DBCEB04D16A28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2F96E156FBA0077041C74A76C96B001C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -103,13 +107,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		76ED0CB233A9A589B63B095142CCA5D8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F54D97D725F79198B6E1D5EAB314B693 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -121,25 +118,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0117056FCB09F3A07E97E55E37CC6EF1 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				BB66C61401E0B10BE353C58F4449319F /* clear@2x.png */,
-				6704B02E4B0341A926EA5528AF17F20A /* clear@3x.png */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		1A5FC39B82757362F8C0F7CFA2E9DE5F /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				64ABB22FE6697A8FDB600579F76F9AC3 /* LICENSE */,
-				8333237B916A641971621994275AF8B2 /* README.md */,
-				7DACF929B3DD6B4F2CA9CDAA36E7E512 /* XHLRUView.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +142,14 @@
 			path = "Target Support Files/Pods-XHLRUView_Tests";
 			sourceTree = "<group>";
 		};
+		83C3E854A61C624442659DB03AAA8FEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E04BC43A56FDC4B9AFD68ABD051687C1 /* XHLRUView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8C631121ED1CDC81A7A5C723438992BD /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,18 +157,6 @@
 				69A6F196CFF4995D30DEFE0E4261EF8C /* Pods-XHLRUView_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		91726A564B753145F1FD72869394C34B /* XHLRUView */ = {
-			isa = PBXGroup;
-			children = (
-				3A71AEAD6B5ECF736CCCE9C889EEC75C /* XHLRUView.swift */,
-				1A5FC39B82757362F8C0F7CFA2E9DE5F /* Pod */,
-				0117056FCB09F3A07E97E55E37CC6EF1 /* Resources */,
-				AA0AEDC03EF2578997E45D12A9F9E910 /* Support Files */,
-			);
-			name = XHLRUView;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		A02CB17321E4D22592DEDAD63DC8F203 /* Pods-XHLRUView_Example */ = {
@@ -202,28 +176,12 @@
 			path = "Target Support Files/Pods-XHLRUView_Example";
 			sourceTree = "<group>";
 		};
-		AA0AEDC03EF2578997E45D12A9F9E910 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				21359923FF27AB302DCEF23B4BD101AA /* ResourceBundle-XHLRUView-XHLRUView-Info.plist */,
-				0DD43968B5F2F8DA0A77B018F64ABCBB /* XHLRUView.modulemap */,
-				C4911E5ED8F7CBC73078477606C98CEF /* XHLRUView-dummy.m */,
-				0B4257C36198A7FBA2CBCDDD8A40D370 /* XHLRUView-Info.plist */,
-				AD57E73B3B506455E64F39DC4787D519 /* XHLRUView-prefix.pch */,
-				F37DA9CD90FAD01602AF46C28FD82DD5 /* XHLRUView-umbrella.h */,
-				71325CBC0DF3DA758193D547E17D346E /* XHLRUView.debug.xcconfig */,
-				C626259138F0FE4AE62FE24D3E28CD88 /* XHLRUView.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XHLRUView";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				F0EE302A0923E4FC14AFE4A62C9FDC32 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				83C3E854A61C624442659DB03AAA8FEE /* Pods */,
 				EDB774FA77805C3408634A49A96AE342 /* Products */,
 				8C631121ED1CDC81A7A5C723438992BD /* Targets Support Files */,
 			);
@@ -237,6 +195,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E04BC43A56FDC4B9AFD68ABD051687C1 /* XHLRUView */ = {
+			isa = PBXGroup;
+			children = (
+				4F0431B1F285E31A176ACB140E1A4809 /* XHLRUView.swift */,
+				F4401CDB2C60C5D0CD2594D1B86F7FF5 /* Resources */,
+				F72123961A20E03166D511789B36233D /* Support Files */,
+			);
+			name = XHLRUView;
+			path = XHLRUView;
+			sourceTree = "<group>";
+		};
 		EDB774FA77805C3408634A49A96AE342 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -248,12 +217,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F0EE302A0923E4FC14AFE4A62C9FDC32 /* Development Pods */ = {
+		F4401CDB2C60C5D0CD2594D1B86F7FF5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				91726A564B753145F1FD72869394C34B /* XHLRUView */,
+				B0A905B12C55287F9684F89F1D5D32BC /* clear@2x.png */,
+				5276D18A8943AA96BD8881D5945393C9 /* clear@3x.png */,
 			);
-			name = "Development Pods";
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F72123961A20E03166D511789B36233D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3ED61CCB752CEE416AB0220F41DE683B /* ResourceBundle-XHLRUView-XHLRUView-Info.plist */,
+				9DB8E15F253E4F355079D72A543A780E /* XHLRUView.modulemap */,
+				2AE31ED381E989C0CD9240AB3736D122 /* XHLRUView-dummy.m */,
+				0FF62D6EC311DFCA8D06515627F3CE05 /* XHLRUView-Info.plist */,
+				A3949BB325D1BAAEFE579AAF633B967C /* XHLRUView-prefix.pch */,
+				ACF25769DC01D1EF8B522101455E6251 /* XHLRUView-umbrella.h */,
+				9484E0687B85B847F404D5DD1979C47C /* XHLRUView.debug.xcconfig */,
+				79828B45EDE0BE23018754CAC7F10E4A /* XHLRUView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XHLRUView";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,7 +284,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				A4902D4017ED6C987D4C4D5CE12D9E33 /* PBXTargetDependency */,
+				B609FA3AD9598452560A24A9376ABD8F /* PBXTargetDependency */,
 			);
 			name = "Pods-XHLRUView_Tests";
 			productName = "Pods-XHLRUView_Tests";
@@ -307,11 +293,11 @@
 		};
 		16557BEE75B97A3254E8B339EBA5B0C3 /* XHLRUView-XHLRUView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D3949B29174725FC60CEE92AB7921511 /* Build configuration list for PBXNativeTarget "XHLRUView-XHLRUView" */;
+			buildConfigurationList = FD301501B6031591CC2C1E252DAE1DFC /* Build configuration list for PBXNativeTarget "XHLRUView-XHLRUView" */;
 			buildPhases = (
-				B708C7505166440204FEDE681DC83368 /* Sources */,
-				76ED0CB233A9A589B63B095142CCA5D8 /* Frameworks */,
-				BDE885CA568FB17805EFCBCD05C1BAA9 /* Resources */,
+				87F1F88E1595159BA3D6DE4B81FAB770 /* Sources */,
+				00DF28E6EEAE01BD8B5DBCEB04D16A28 /* Frameworks */,
+				980955E66DB481713BBA45FAC22E0E38 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -334,7 +320,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				DCC7A0167B979381695BE6B6EA81B3C9 /* PBXTargetDependency */,
+				DEE0EF9BB22735792C7CE41842579848 /* PBXTargetDependency */,
 			);
 			name = "Pods-XHLRUView_Example";
 			productName = "Pods-XHLRUView_Example";
@@ -353,7 +339,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				D6653A92CD72D5D790068295D7806884 /* PBXTargetDependency */,
+				F14EB0DA5279134B519C86E71B431DDA /* PBXTargetDependency */,
 			);
 			name = XHLRUView;
 			productName = XHLRUView;
@@ -406,12 +392,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BDE885CA568FB17805EFCBCD05C1BAA9 /* Resources */ = {
+		980955E66DB481713BBA45FAC22E0E38 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C138F1E600ECA23B03A53EE740E334A0 /* clear@2x.png in Resources */,
-				C2708737789BE953F2F1A555E136C21E /* clear@3x.png in Resources */,
+				60BA37D9084B89E4FDE5CE9CBB991FD9 /* clear@2x.png in Resources */,
+				0DBE10E0CC59B5DEBBBD2AFC3F80A60B /* clear@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +428,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		87F1F88E1595159BA3D6DE4B81FAB770 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		892FDAD45AD500A9F9CE9D274C771A83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -450,40 +443,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B708C7505166440204FEDE681DC83368 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A4902D4017ED6C987D4C4D5CE12D9E33 /* PBXTargetDependency */ = {
+		B609FA3AD9598452560A24A9376ABD8F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-XHLRUView_Example";
 			target = 39A94883A43B84B668A5DB94171ACFA8 /* Pods-XHLRUView_Example */;
-			targetProxy = DB31FD93F2E02B50E2149EA03ED0BD1E /* PBXContainerItemProxy */;
+			targetProxy = 5291747E69CE06CF6C9357C3752079CF /* PBXContainerItemProxy */;
 		};
-		D6653A92CD72D5D790068295D7806884 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "XHLRUView-XHLRUView";
-			target = 16557BEE75B97A3254E8B339EBA5B0C3 /* XHLRUView-XHLRUView */;
-			targetProxy = 7216DAEE2DF68BDF75C739486225F099 /* PBXContainerItemProxy */;
-		};
-		DCC7A0167B979381695BE6B6EA81B3C9 /* PBXTargetDependency */ = {
+		DEE0EF9BB22735792C7CE41842579848 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = XHLRUView;
 			target = A8B8FAE01179FD21E0A78E04EEA74C98 /* XHLRUView */;
-			targetProxy = DC4E187122ABE0882FF6421FE9A74EDA /* PBXContainerItemProxy */;
+			targetProxy = 05DA011990543FA388F2D1F3EB0183DB /* PBXContainerItemProxy */;
+		};
+		F14EB0DA5279134B519C86E71B431DDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "XHLRUView-XHLRUView";
+			target = 16557BEE75B97A3254E8B339EBA5B0C3 /* XHLRUView-XHLRUView */;
+			targetProxy = 62126DE635FF08F87DCCAE8D71BF7031 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		067BF75451F9325EFCA24FE4ECBDE416 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71325CBC0DF3DA758193D547E17D346E /* XHLRUView.debug.xcconfig */;
+			baseConfigurationReference = 9484E0687B85B847F404D5DD1979C47C /* XHLRUView.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -510,22 +496,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		2BF50D5275EEE4B40FBCCDF55EB96903 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C626259138F0FE4AE62FE24D3E28CD88 /* XHLRUView.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XHLRUView";
-				IBSC_MODULE = XHLRUView;
-				INFOPLIST_FILE = "Target Support Files/XHLRUView/ResourceBundle-XHLRUView-XHLRUView-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = XHLRUView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
 		};
 		3E8960D1DC401A7CD07625505F7FF921 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -718,9 +688,25 @@
 			};
 			name = Release;
 		};
+		C4D68C2A5A58147B6528A903E46B59D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79828B45EDE0BE23018754CAC7F10E4A /* XHLRUView.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XHLRUView";
+				IBSC_MODULE = XHLRUView;
+				INFOPLIST_FILE = "Target Support Files/XHLRUView/ResourceBundle-XHLRUView-XHLRUView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = XHLRUView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		CD0B43C9174E4508AAD37B0721EC1EF8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C626259138F0FE4AE62FE24D3E28CD88 /* XHLRUView.release.xcconfig */;
+			baseConfigurationReference = 79828B45EDE0BE23018754CAC7F10E4A /* XHLRUView.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -748,6 +734,22 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		D0B1C316385251F040BAC6BA4769730F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9484E0687B85B847F404D5DD1979C47C /* XHLRUView.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XHLRUView";
+				IBSC_MODULE = XHLRUView;
+				INFOPLIST_FILE = "Target Support Files/XHLRUView/ResourceBundle-XHLRUView-XHLRUView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = XHLRUView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
 		};
 		EF3BAAA889B17377BE8F3254633FA0A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -814,22 +816,6 @@
 			};
 			name = Debug;
 		};
-		F6661AD612161E78DD5210D07994B986 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71325CBC0DF3DA758193D547E17D346E /* XHLRUView.debug.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XHLRUView";
-				IBSC_MODULE = XHLRUView;
-				INFOPLIST_FILE = "Target Support Files/XHLRUView/ResourceBundle-XHLRUView-XHLRUView-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = XHLRUView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -851,15 +837,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D3949B29174725FC60CEE92AB7921511 /* Build configuration list for PBXNativeTarget "XHLRUView-XHLRUView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F6661AD612161E78DD5210D07994B986 /* Debug */,
-				2BF50D5275EEE4B40FBCCDF55EB96903 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		DD2FD4FE6A42F80997285E0708116D22 /* Build configuration list for PBXNativeTarget "Pods-XHLRUView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -874,6 +851,15 @@
 			buildConfigurations = (
 				067BF75451F9325EFCA24FE4ECBDE416 /* Debug */,
 				CD0B43C9174E4508AAD37B0721EC1EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD301501B6031591CC2C1E252DAE1DFC /* Build configuration list for PBXNativeTarget "XHLRUView-XHLRUView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B1C316385251F040BAC6BA4769730F /* Debug */,
+				C4D68C2A5A58147B6528A903E46B59D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

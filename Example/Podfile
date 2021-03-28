@@ -1,10 +1,14 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/Artsy/Specs.git'
+source 'https://github.com/Lxh93/XHSpecs.git'
+
 use_frameworks!
 
 platform :ios, '9.0'
 
 target 'XHLRUView_Example' do
+  #pod 'XHLRUView', '0.0.1'
   pod 'XHLRUView', :path => '../'
-
   target 'XHLRUView_Tests' do
     inherit! :search_paths
 
