@@ -7,7 +7,8 @@
 
 import UIKit
 
-private let lruMargin: CGFloat = 10.0
+private let lruMargin: CGFloat = 8.0
+private let lrtHeadHeight: CGFloat = 56.0
 
 @objc public protocol ClearBtnDelegate {
     func clearBtnActionClick()
@@ -40,7 +41,7 @@ public class XHLRUView: UIView {
 //            print("historys",historys)
             lruContView.removeFromSuperview()
             lruContView = XHLRUContentView.init(historys)
-            lruContView.frame = CGRect.init(x: 0, y: 56, width: self.bounds.size.width, height: 250)
+            lruContView.frame = CGRect.init(x: 0, y: lrtHeadHeight, width: self.bounds.size.width, height: 50)
             lruContView.delegate = self
             self.addSubview(lruContView)
 //            lruContView.setUI()
@@ -50,13 +51,13 @@ public class XHLRUView: UIView {
     var lruHeadView: XHLRUHeadView = XHLRUHeadView()
     public override init(frame: CGRect) {
         super.init(frame: frame)
-        lruHeadView = XHLRUHeadView.init("历史记录", frame: CGRect.init(x: 0, y: 0, width: self.bounds.size.width, height: 46))
+        lruHeadView = XHLRUHeadView.init("历史记录", frame: CGRect.init(x: 0, y: 0, width: self.bounds.size.width, height: lrtHeadHeight))
         lruHeadView.delegate = self
         self.addSubview(lruHeadView)
 //        let dic = ["fontColor": UIColor.green, "barrage": "你是个什么玩意", "fontName": "AppleSDGothicNeo-Bold", "fontSize": 200, "animationDuration": 10] as NSMutableDictionary
-//        historys = [dic]
+//        historys = [dic, dic, dic, dic, dic, dic, dic, dic, dic, dic]
         lruContView = XHLRUContentView.init(historys)
-        lruContView.frame = CGRect.init(x: 0, y: 56, width: self.bounds.size.width, height: 250)
+        lruContView.frame = CGRect.init(x: 0, y: lrtHeadHeight, width: self.bounds.size.width, height: 50)
         lruContView.itemBackColor = UIColor.init(red: 236/255.0, green: 236/255.0, blue: 236/255.0, alpha: 1.0)
         lruContView.delegate = self
         self.addSubview(lruContView)
@@ -167,7 +168,7 @@ public class XHLRUContentView: UIView {
     func setUI() {
                 
         var currentX: CGFloat = 0
-        var currentY: CGFloat = 10.0
+        var currentY: CGFloat = 0
         var countRow: Int = 0
         var countCol: Int = 0
         var currentBtnHeight: CGFloat = 30.0
@@ -203,6 +204,7 @@ public class XHLRUContentView: UIView {
             self.addSubview(btn)
         }
         self.frame.size.height = currentY + lruMargin + currentBtnHeight
+        superview!.frame.size.height = currentY + lruMargin + currentBtnHeight + lrtHeadHeight
     }
     
     func buttonWithTitle(_ model: NSMutableDictionary) -> UIButton {

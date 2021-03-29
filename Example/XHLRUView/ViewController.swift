@@ -14,7 +14,7 @@ class ViewController: UIViewController {
 //    @IBOutlet weak var imgView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        let lruView = XHLRUView.init(frame: CGRect.init(x: 0, y: 100, width: view.bounds.size.width, height: 250))
+        let lruView = XHLRUView.init(frame: CGRect.init(x: 0, y: 100, width: view.bounds.size.width, height: 50))
 
         view.addSubview(lruView)
     }
